@@ -1,86 +1,63 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata dan Daftar Riwayat Hidup</title>
+    <title>Kontak - M Souvenir</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { background-color: #d4af37; color: #333; }
+        .navbar { background-color: #333; }
+        .navbar-brand, .nav-link { color: #d4af37 !important; }
+        .contact-section { padding: 50px 0; }
+        .owner-photo { border-radius: 10px; width: 200px; height: 200px; object-fit: cover; }
+        footer { background-color: #333; color: #d4af37; padding: 10px 0; }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-           
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Beranda <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="profil.html">Profil</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="layanan.html">Layanan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="galeri.html">Galeri</a>
-                  </li>
-                  <li class="nav-item active">
-                    <a class="nav-link" href="kontak.html">Kontak</a>
-                  </li>
-              </ul>
-            </div>
-        </div>
-       
-      </nav>
-    <!-- Header -->
-<header class="jumbotron jumbotron-fluid text-center bg-info text-white">
-  <div class="container">
-      <h1 class="display-4">Kontak Kami</h1>
-      <p class="lead">Hubungi kami untuk informasi lebih lanjut</p>
-  </div>
-</header>
 
-<!-- Kontak Section -->
-<div class="container my-5">
-  <div class="row">
-      <!-- Informasi Kontak -->
-      <div class="col-md-6">
-          <h2>Informasi Kontak</h2>
-          <p>Hubungi kami melalui informasi di bawah ini, atau isi form untuk mengirim pesan langsung kepada kami.</p>
-          <ul class="list-unstyled">
-              <li><strong>Alamat:</strong> Jl. Raya Susukan</li>
-              <li><strong>Telepon:</strong> 0822-2379-7981</li>
-              <li><strong>Email:</strong> muhamadtafsirulmizan@gmail.com</li>
-          </ul>
-      </div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+        <img src="img/m souvenir.png" alt="Logo" width="125"> <!-- Ganti dengan URL logo Anda -->
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="profil.html">Profil</a></li>
+            <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+            <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+        </ul>
+    </div>
+</nav>
 
-      <!-- Form Kontak -->
-      <div class="col-md-6">
-          <h2>Formulir Kontak</h2>
-          <form>
-              <div class="form-group">
-                  <label for="name">Nama</label>
-                  <input type="text" class="form-control" id="name" placeholder="Nama Anda">
-              </div>
-              <div class="form-group">
-                  <label for="email">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Email Anda">
-              </div>
-              <div class="form-group">
-                  <label for="message">Pesan</label>
-                  <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda di sini"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
-          </form>
-      </div>
-  </div>
+<!-- Contact Section -->
+<div class="container contact-section text-center">
+    <h2 class="mb-4">Kontak Kami</h2>
+    <img src="img/mizan.jpg" alt="Foto Pemilik" class="owner-photo mb-3"> <!-- Ganti dengan URL foto pemilik -->
+    <h4>Nama Pemilik: Muhamad Tafsirul Mizan</h4> <!-- Ganti dengan nama pemilik -->
+    
+    <h5>Informasi Kontak</h5>
+    <p><strong>Email:</strong> msouvenir@gmail.com/muhamadtafsirulmizan@gmail.com</p> <!-- Ganti dengan email yang sesuai -->
+    <p><strong>Telepon:</strong> 0822-2379-7981</p> <!-- Ganti dengan nomor telepon yang sesuai -->
+    
+    <h5>Alamat Kami</h5>
+    <p>Jl. Lembuayu Rt 02/03, Desa Susukan, Kecamatan Sumbang, Kabupaten Banyumas Kode, Pos 53183</p> <!-- Ganti dengan alamat yang sesuai -->
+    
+    <h5>Jam Operasional</h5>
+    <p>Senin - Jumat: 09:00 - 17:00<br>Sabtu: 09:00 - 14:00<br>Minggu: Tutup</p>
+    
+    <h5>Ikuti Kami di Media Sosial</h5>
+    <p>
+        <a href="https://facebook.com/mewahsouvenir" target="_blank">Facebook</a> |
+        <a href="https://instagram.com/mewahsouvenir" target="_blank">Instagram</a> |
+        <a href="https://twitter.com/mewahsouvenir" target="_blank">Twitter</a>
+    </p>
 </div>
         
-<footer class="text-center mt-4">
-  <p>&copy; 2024 . Muhamad Tafsirul Mizan. STI202303390.</p>
+<!-- Footer -->
+<footer class="text-center py-4 bg-dark text-white">
+  <p>&copy; 2024 M Souvenir. Muhamad Tafsirul Mizan.</p>
 </footer>
     </div>
 
